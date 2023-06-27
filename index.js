@@ -1,4 +1,4 @@
-// Tentativa por Listener
+// Checkout/Cart events listener
 $(window).on('orderFormUpdated.vtex', function () {
     console.log("Someone changed the orderForm!");
     
